@@ -1,0 +1,68 @@
+body {
+	font-size: 1.125rem;
+	color: #707070;
+	margin: 0;
+	/* background: pink; */
+	
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	width: 75%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h1 span {
+	color: #b7832f;
+}
+
+.columns {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 1em 0;
+	text-align: left;
+}
+
+/* Exam change flex come back block */
+@media (max-width: 600px){
+	.columns {
+		flex-direction: column;
+	}
+}
+
+.col1 {
+	width: 20%;
+}
+
+.col2 {
+	width: 45%;
+}
+
+.col3 {
+	width: 70%;
+}
+@media (max-width: 600px){
+	.col {
+		width: 100%;
+	}
+}
+
+
+.col-bg {
+	background: #312614;
+	color: #fff;
+}
+
+.columns2 {
+	padding: 1em;
+}

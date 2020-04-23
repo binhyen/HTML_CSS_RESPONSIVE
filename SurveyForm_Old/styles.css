@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(169, 215, 209);
+    font-family: 'Raleway', Helvetica, sans-serif;
+  }
+  
+  #title {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  #form {
+    text-align: center;
+    background-color: white;
+    margin-top: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #form-title {
+    text-align: center;
+  }
+  
+  #form-content-1 {
+    display: grid;
+    margin-top: 20px;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .column-left {
+    /* margin-top: 20px; */
+    text-align: right;
+    margin: 20px 0px 0px 20px;
+  }
+  
+  .column-right {
+    text-align: left;
+    margin: 20px 0px 0px 20px;
+  }
+  
+  .column-age {
+    text-align: left;
+    margin: 20px 0px 0px 20px;
+    width: 244px;
+  }
+  
+  #txt-area {
+    height:60px;
+    width: 200px;
+  }
+  
+  #submit {
+    text-align: center;
+  }
+  
+  #btn-submit {
+    background-color: rgb(89, 172, 224);
+    height: 40px;
+    width: 100px;
+    font-size: 1em;
+    color: white;
+    margin: 10px;
+    border-radius: 4px;
+    border: 0px solid;
+  }
+
+  input {
+      max-width: 225px;
+  }
+
+  p {
+      margin-top: 0;
+  }
+
+  #btn-submit:hover {
+      background-color: aqua;
+  }
